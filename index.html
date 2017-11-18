@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+<meta charset=utf-8 />
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <input id="bestand" type='file'  accept="image/png/jpeg" onchange="readURL(this);" /><br><br>
+	<input name="" type="button" value="START" onclick="ani();document.getElementById('audio').play()" /><br><br><br>
+	<p id="tutorial">
+	1.CHOOSE A IMAGE.
+	<br>
+	2.PRESS THE START BUTTON.
+	</p>
+    <div id="center">
+    <img id="img" src="#" />
+	</div>
+	<audio id="audio">
+    <source src="krabby.mp3" type="audio/mpeg">
+    </audio>
+    <p id="developed" >Developed by <a href="http://woutcorijn.cf">Wout Corijn</a></p>
+	<script src="js.js"></script>
+</body>
+</html>
