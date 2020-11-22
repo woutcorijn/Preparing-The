@@ -3,52 +3,32 @@
   background-image: url("bg.jpg");
   background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
 	background-size:cover;
+  color:White;
+  font-family:Arial;
+  font-weight: bold;
   }
-  article, aside, figure, footer, header, hgroup, 
-  menu, nav, section { 
-  display: block; 
+
+  a {
+    color: white;
   }
+
   #center {
   text-align:center;
   }
+
   img {
   height:0px;
   width:0px;
   position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
-  .classname {
-  -webkit-animation-name:klein;
-  -webkit-animation-duration:40s; 
-  animation-name:klein;
-  animation-duration:40s;
-  }
-  @-webkit-keyframes klein {
-  from {height:0px; width:0px;}
-  to {height:250px; width:250px;}
-  }
-  @keyframes klein {
-  from {height:0px; width:0px;}
-  to {height:250px; width:250px;}
-  }
-  #tutorial {
-  font-family:arial;
-  color:white;
-  font-size:20px;
-  }
-  #developed {
+
+  #name {
 	  bottom:0;
-	  position:absolute; 
-	  color:white; 
-  }
-  a {
-	  color:White;
-  }
-  input {
+	  position:absolute;
+	  color:white;
   }
