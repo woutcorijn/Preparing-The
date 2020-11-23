@@ -33,7 +33,7 @@ function loop() {
     clearInterval(loopid);
       }
 	} else {
-    if( height >= 300) {
+  if( height >= 300) {
     clearInterval(loopid);
       }
 	}
